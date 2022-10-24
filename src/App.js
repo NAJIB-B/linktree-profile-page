@@ -12,7 +12,7 @@ function App() {
   const links = [
     { name: "Zuri Team", link: "https://training.zuri.team/", id: "btn__zuri" },
     {
-      name: "Zuri Books",
+      name: "Books on design and coding",
       link: "http://books.zuri.team",
       id: "books",
     },
@@ -22,18 +22,28 @@ function App() {
       id: "book__python",
     },
     {
-      name: "Background check for coders",
+      name: "Premium background check for coders",
       link: "https://background.zuri.team",
       id: "pitch",
     },
     {
-      name: "Design Books",
+      name: "Free design book by Zuri",
       link: "https://books.zuri.team/design-rules",
       id: "book__design",
     },
   ];
   return (
     <div className="main_div">
+      <img
+        src={back_btn_lg}
+        alt="back button for large screens"
+        className="back_btn_lg"
+      ></img>
+      <img
+        src={back_btn_sm}
+        alt="back button for small screens"
+        className="back_btn_sm"
+      ></img>
       <div className="profile_pic_div">
         <img
           src={profile__img}
@@ -67,8 +77,16 @@ function App() {
         );
       })}
       <div>
-        <img src={slack_img} alt="slack logo" className="logo_after_links"></img>
-        <img src={github_img} alt="github logo" className="logo_after_links"></img>
+        <img
+          src={slack_img}
+          alt="slack logo"
+          className="logo_after_links"
+        ></img>
+        <img
+          src={github_img}
+          alt="github logo"
+          className="logo_after_links"
+        ></img>
       </div>
       <div className="footer">
         <div>
