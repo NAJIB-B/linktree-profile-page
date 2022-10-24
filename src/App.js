@@ -1,4 +1,11 @@
 import profile__img from "./assets/profile__img.png";
+import zuri_img from "./assets/zuri_internship.png";
+import i4g_img from "./assets/I4G.png";
+import hng from "./assets/hng.png";
+import slack_img from "./assets/slack.png";
+import github_img from "./assets/github.png";
+import back_btn_lg from "./assets/back_btn_lg.png";
+import back_btn_sm from "./assets/back_btn_sm.png";
 import "./App.css";
 
 function App() {
@@ -59,6 +66,21 @@ function App() {
           </a>
         );
       })}
+      <div>
+        <img src={slack_img} alt="slack logo" className="logo_after_links"></img>
+        <img src={github_img} alt="github logo" className="logo_after_links"></img>
+      </div>
+      <div className="footer">
+        <div>
+          <img src={zuri_img} alt="zuri logo"></img>
+        </div>
+        <div>
+          <img src={hng} alt="hng frontend task"></img>
+        </div>
+        <div>
+          <img src={i4g_img} alt="ingressive for good"></img>
+        </div>
+      </div>
     </div>
   );
 }
