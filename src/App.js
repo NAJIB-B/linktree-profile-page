@@ -1,4 +1,4 @@
-import profile__img from "./assets/profile__img.png";
+import profile__img from "./assets/profile__img.jpg";
 import zuri_img from "./assets/zuri_internship.png";
 import i4g_img from "./assets/I4G.png";
 import hng from "./assets/hng.png";
@@ -17,8 +17,8 @@ function App() {
       id: "books",
     },
     {
-      name: "Python Books",
-      link: "https://books.zuri.team/python-for-beginners?ref_id=najibbala",
+      name: "Python Books for sale",
+      link: "https://books.zuri.team/python-for-beginners?ref_id=najib bala",
       id: "book__python",
     },
     {
@@ -54,13 +54,25 @@ function App() {
         <p className="profile_name">Muhmmad Najib Bala</p>
       </div>
 
-      <p className="username " id="twitter">
+      <a
+        href="https://twitter.com/najib2557"
+        target="_blank"
+        rel="noreferrer"
+        className="username link"
+        id="twitter"
+      >
         najib2557
-      </p>
+      </a>
 
-      <p className="username hidden" id="slack">
-        najibbala
-      </p>
+      <a
+        href=""
+        target="_blank"
+        rel="noreferrer"
+        className="username hidden"
+        id="slack"
+      >
+        najib bala
+      </a>
 
       {links.map((item, index) => {
         return (
