@@ -4,3 +4,17 @@ html {
   font-family: "inter", sans-serif;
   color: #101828;
 }
+html h1 {
+  font-size: 3.5rem;
+}
+html p {
+  font-size: 1.8rem;
+}
+@media screen and (max-width: 768px) {
+  html h1 {
+    font-size: 3rem;
+  }
+  html p {
+    font-size: 1.6rem;
+  }
+}

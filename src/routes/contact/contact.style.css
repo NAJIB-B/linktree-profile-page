@@ -1,0 +1,90 @@
+.contactPageDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactForm {
+  width: 65%;
+  padding: 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+form input {
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  padding: 1px;
+  height: 3.5rem;
+  margin: 1rem auto;
+}
+.contactForm input[type="text"],
+.contactForm input[type="email"] {
+  width: 100%;
+}
+.contactForm input[type="checkbox"] {
+  height: auto;
+  margin-right: 1rem;
+}
+.contactForm textarea {
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  width: 100%;
+  height: 8.25rem;
+  margin-top: 1rem;
+}
+
+.nameInputFields {
+  display: flex;
+  justify-content: space-between;
+}
+.nameInputFields div {
+  flex: 50%;
+}
+.firstNameInput {
+  margin-right: 1rem;
+}
+.submitBtn {
+  background-color: #1570ef;
+  color: white;
+  padding: 1.5rem;
+  width: 100%;
+  outline: none;
+  border: 1px solid #1570ef;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+/* placeholder style */
+/* WebKit, Edge */
+::-webkit-input-placeholder {
+  padding: 0.5rem;
+}
+/* Firefox 4-18 */
+:-moz-placeholder {
+  padding: 0.5rem;
+}
+/* Firefox 19+ */
+::-moz-placeholder {
+  padding: 0.5rem;
+}
+/* IE 10-11 */
+:-ms-input-placeholder {
+  padding: 0.5rem;
+}
+/* Edge */
+::-ms-input-placeholder {
+  padding: 0.5rem;
+}
+/* MODERN BROWSER */
+::placeholder {
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .contactForm {
+    width: 80%;
+  }
+  .nameInputFields {
+    flex-direction: column;
+  }
+}
