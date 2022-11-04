@@ -32,7 +32,7 @@ const Contact = () => {
             <label>Message</label>
             <textarea
               id="message"
-              placeholder="Send me a message and I will reply you as soon as possible.."
+              placeholder="Send me a message and I will reply you as soon as possible..."
             ></textarea>
 
             <p>

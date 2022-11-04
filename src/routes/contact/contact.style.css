@@ -24,6 +24,11 @@ form input {
 .contactForm input[type="checkbox"] {
   height: auto;
   margin-right: 1rem;
+  margin-top: 5px;
+  float: left;
+}
+.contactForm p {
+  overflow: auto;
 }
 .contactForm textarea {
   border: 1px solid #d0d5dd;
