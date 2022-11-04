@@ -6,7 +6,7 @@ import hng from "../../assets/hng.png";
 
 const Footer = () => {
   return (
-    <div className="main_div">
+    
       <div className="footer">
         <div>
           <img src={zuri_img} alt="zuri logo"></img>
@@ -18,7 +18,7 @@ const Footer = () => {
           <img src={i4g_img} alt="ingressive for good"></img>
         </div>
       </div>
-    </div>
+  
   );
 };
 
